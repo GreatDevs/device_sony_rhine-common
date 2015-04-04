@@ -27,6 +27,11 @@ BOARD_KERNEL_CMDLINE  := androidboot.hardware=qcom user_debug=31 msm_rtb.filter=
 BOARD_MKBOOTIMG_ARGS  := --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
 BOARD_KERNEL_SEPARATED_DT := true
 
+# Qualcomm
+TARGET_QCOM_AUDIO_VARIANT := caf-bfam
+TARGET_QCOM_DISPLAY_VARIANT := caf-bfam
+TARGET_QCOM_MEDIA_VARIANT := caf-bfam
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
